@@ -55,7 +55,7 @@ minVal = 'Greatest decrease of Profit/Losses: ' + ' on ' + str(date[profloss.ind
 
 
 
-DataBudget = open('csvfile.csv' , 'w')
+DataBudget = open('analisis.csv' , 'w')
 DataBudget.write('Financial Analysus\n')
 DataBudget.write('------------------------\n')
 DataBudget.write(monthcount + '\n')
